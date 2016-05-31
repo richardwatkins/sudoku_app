@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Puzzle:</strong>
+  <%= @sudoku.puzzle %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @sudoku.answer %>
+</p>
+
+<%= link_to 'Edit', edit_sudoku_path(@sudoku) %> |
+<%= link_to 'Back', sudokus_path %>
